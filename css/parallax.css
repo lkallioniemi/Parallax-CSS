@@ -1,0 +1,82 @@
+html, body {
+	height: 100%;
+}
+#parallax { 
+	-webkit-perspective: 500px;
+	-moz-perspective: 500px;
+	perspective: 500px;
+	width: 100%;
+	height: 100%;
+}
+
+#parallax div {
+	top: 25%;
+	width: 25%;
+	height: 25%;
+	position: relative;
+	float: left;
+	
+	-webkit-transform: translatez(attr(data-z) 0);
+	-moz-transform: translatez(attr(data-z) 0);
+	transform: translatez(attr(data-z) 0); 
+}
+
+.red {
+	background-color: red;
+	background-color: rgba(255, 0, 0, 0.7);
+	-webkit-transform: translatez(30px);
+	-moz-transform: translateZ(30px);
+	transform: translateZ(30px); 
+}
+
+.blue {
+	background-color: blue;
+	background-color: rgba(0, 0, 255, 0.7);
+	-webkit-transform: translatez(50px);
+	-moz-transform: translateZ(50px);
+	transform: translateZ(50px); 
+}
+.yellow {
+	background-color: yellow;
+	background-color: rgba(255, 255, 0, 0.7);
+	-webkit-transform: translatez(10px);
+	-moz-transform: translateZ(10px);
+	transform: translateZ(10px);
+}
+.green {
+	background-color: green;
+	background-color: rgba(0, 255, 0, 0.7);
+	-webkit-transform: translatez(20px);
+	-moz-transform: translateZ(20px);
+	transform: translateZ(20px);
+}
+
+.teal {
+	background-color: teal;
+	background-color: rgba(0, 128, 128, 0.7);
+	-webkit-transform: translatez(40px);
+	-moz-transform: translateZ(40px);
+	transform: translateZ(40px);
+}
+
+.fuchsia {
+	background-color: fuchsia;
+	background-color: rgba(255, 0, 255, 0.7);
+	-webkit-transform: translatez(10px);
+	-moz-transform: translateZ(10px);
+	transform: translateZ(10px);
+}
+.lime {
+	background-color: lime;
+	background-color: rgba(0, 255, 0, 0.7);
+	-webkit-transform: translatez(70px);
+	-moz-transform: translateZ(70px);
+	transform: translateZ(70px);
+}
+.olive {
+	background-color: olive;
+	background-color: rgba(128, 128, 0, 0.7);
+	-webkit-transform: translatez(30px);
+	-moz-transform: translateZ(30px);
+	transform: translateZ(30px);
+}
